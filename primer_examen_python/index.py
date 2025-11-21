@@ -71,6 +71,8 @@ while not salir: # o tambien lo puedo poner como salir == False
                 print('------------------------------')
                 print('Gracias por usar mi programa')
                 break
+            case _:
+                print('>> Escriba una opcion valida ... <<')
     except ValueError :
         print('>> Escribiste algo distinto a un numero, intenta de nuevo. <<')
         
